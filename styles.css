@@ -1,0 +1,90 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+  font: normal normal 16px/18px "Open Sans", sans-serif;
+  background: #fcf7ff;
+  line-height: 1.3;
+}
+h2 {
+  font-size: 24px;
+  color: #008b74;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 18px;
+  color: #9b89b3;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.container {
+  padding: 20px;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #fff;
+  border: 4px solid #9b89b3;
+  border-radius: 12px;
+}
+
+form {  
+  display: inline-block;
+}
+
+input {
+  padding: 4px 15px 4px 5px;
+}
+
+#button {
+display: inline-block;
+background-color:#008b74;
+color:#fff;
+width: 60px;
+border: 2px solid #008b74;
+border-radius: 5px;
+text-align: center;
+margin: 10px;
+padding: 5px 15px;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border:2px solid #008b74;
+  color: #008b74;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: #000;
+}
+
+ol li:nth-child(even) {
+  background: #c4fcef;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #c0564a;
+	font-weight: 800;
+}
