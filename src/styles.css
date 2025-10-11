@@ -1,13 +1,16 @@
 /* === COLOR PALETTE ===
-Background Color: #B3876C
-Main Text (navy): #003d5f
-Primary Color (orange): #4C4AB7
-Secondary Color (green): #FFB885
-Accent Color (purple): #4C4AB7
+Background Color: #307197
+Main Text: #003d5f
+Primary Color: #959a24
+Secondary Color: #F1E0FF
+Accent Color 1: #B00FF4
+Accent Color 2: #CE1010
 */
 
+/* === GLOBAL STYLES === */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
+/* === Layout and Typography === */ 
 body {
   /* Layout */
   margin: 1rem auto;
@@ -17,13 +20,29 @@ body {
   line-height: 1.5;
 }
 
-
 h2 {
   font-size: 1.6rem;
   color: #B00FF4;
   font-weight: bolder;
 }
 
+.strike {
+  text-decoration: line-through;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+}
+
+ol li:nth-child(even) {
+  background: #F1E0FF;
+}
+
+/* === Modules/Components === */
 .container {
   /* Layout */
   max-width: 60%;
@@ -55,33 +74,20 @@ margin: 10px;
 padding: 5px 20px;
 }
 
+/* === States === */
 #button:hover {
   cursor: pointer;
   opacity: 0.8;
   transform: scale(1.05)
 }
 
-ol {
-  padding-left: 20px;
-}
-
-ol li {
-  padding: 5px;
-}
-
-ol li:nth-child(even) {
-  background: #F1E0FF;
-}
-
-.strike {
-  text-decoration: line-through;
-}
-
 li:hover {
   cursor: pointer;
   font-weight: bolder;
   transform: scale(1.05);
- }
+}
+
+/* === Utilities === */
 
 .delete {
 	display: none;
