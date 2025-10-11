@@ -33,4 +33,5 @@ Prerequisites
 - Modern web browser (Chrome, Firefox, Edge, Safari)
 - Reliable internet connection
 
-git clone at https://github.com/HeatherR206/Go-PokemonGo.git
+clone repo at https://github.com/HeatherR206/Check-Mate.git
+live app: https://heatherr206.github.io/Check-Mate/
